@@ -1,0 +1,91 @@
+{
+    "Version"                :  "1.3",
+    "ADORepositories"        :
+    {
+        "BranchPolicies" :
+        {
+            "DevelopmentTrunkName" : "DevTrunk",
+            "PreReleaseTrunkName"  : "PreReleaseTrunk",
+            "ReleaseTrunkName"     : "ReleaseTrunk",
+            "WorkBranchPrefix"     : "Work",
+            "EnableRecursiveRebase": true
+        },
+        "Repositories":
+        [
+            {
+                "Name"          : "ADOService",
+                "URL"           : "https://dev.azure.com",
+                "Organizations" : 
+                [
+                    {
+                        "Name"          : "TallyWorld",
+                        "ProjectFilter" : [],
+                        "Mandatory"     : true,
+                        "Comments"      : "Blank project filter means, ALL projects under the Organization."
+                    },
+                    {
+                        "Name"          : "TWPersonal",
+                        "ProjectFilter" : ["${DomainName}"],
+                        "Mandatory"     : false
+                    },
+                    {
+                        "Name"          : "TallySolutions",
+                        "ProjectFilter" : ["TallyPMT","TWShared"],
+                        "Mandatory"     : false
+                    }
+                ]
+            }
+        ]
+    },
+    "ThirdPartyRepositories" :
+    [
+        {
+            "Name"           : "GitHub",
+            "URL"            : "https://github.com",
+            "Owners"  :
+            [
+                {
+                    "Name"           : "TallySolutions",
+                    "Repositories"   : 
+                    [
+                        {
+                            "Name"    : "NanOS",
+                            "CloneDir": "ThirdParty"
+                        },
+                        {
+                            "Name"    : "OPS",
+                            "CloneDir": "ThirdParty"
+                        },
+                        {
+                            "Name"    : "TWVSExtension",
+                            "CloneDir": "TallySolutions"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "GitConfig" : 
+    {
+        "CloneWaitTime"  : 300,
+        "Configs"        :
+        [
+            {
+                "Name" : "core.ignoreCase",
+                "Value": "false"
+            },
+            {
+                "Name" : "core.autocrlf",
+                "Value": "false"
+            }
+        ]
+    },
+    "RepoListConfig"   :
+    {
+        "AcceptableRefreshGap" : 1,
+        "DelayedExecutionTime" : 3,
+        "StaleIfNotSyncSince"  : 24
+    },
+    "RemoteName" : "origin",
+    "IgnoredFolders" : ["Builds", "Tools", ".vs", "backups", "out"]
+ }
