@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TallySolutions/TWVSExtension/DevTrunk/bootstrap-tools-schema.json",
+    "$schema": "https://raw.githubusercontent.com/TallySolutions/TWTrailExtension/DevTrunk/bootstrap-tools-schema.json",
     "Version"               :  "2.0",
     "ADOArtifcatories"      :
     [
@@ -9,7 +9,7 @@
             "Feed"          : "https://feeds.dev.azure.com",
             "Organizations" :
             [
-                              "TallyWorld"
+                              "TallyPMTTrail"
             ] 
         }
     ],
@@ -22,21 +22,21 @@
         {
             "Name": "TWAppIDCompiler",
             "LanguageService": {
-                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/DevTrunk/TextMateLanguageGrammers/TWAppIDCompiler.tmbundle.zip",
+                "BundlePathUrl": "https://github.com/TallySolutions/TWTrailExtension/raw/DevTrunk/TextMateLanguageGrammers/TWAppIDCompiler.tmbundle.zip",
                 "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\TWAppIDCompiler.tmbundle.zip"
             }
         },
 	{
             "Name": "Kotlin",
             "LanguageService": {
-                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/DevTrunk/TextMateLanguageGrammers/Kotlin.tmbundle.zip",
+                "BundlePathUrl": "https://github.com/TallySolutions/TWTrailExtension/raw/DevTrunk/TextMateLanguageGrammers/Kotlin.tmbundle.zip",
                 "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\Kotlin.tmbundle.zip"
             }
         },
 	{
             "Name": "Swift",
             "LanguageService": {
-                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/DevTrunk/TextMateLanguageGrammers/Swift.tmbundle.zip",
+                "BundlePathUrl": "https://github.com/TallySolutions/TWTrailExtension/raw/DevTrunk/TextMateLanguageGrammers/Swift.tmbundle.zip",
                 "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\Swift.tmbundle.zip"
             }
         }
@@ -679,7 +679,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "twbuildgen"
                 },
@@ -714,7 +714,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "java"
                 },
@@ -860,7 +860,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "androidx"
                 },
@@ -960,7 +960,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
                         "Package"      : "linuxbison"
                 },
@@ -1026,7 +1026,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "gradle"
                 },
@@ -1060,7 +1060,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "qt6.2"
                 },
@@ -1091,7 +1091,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
                         "Package"      : "qt6.2"
                 },
@@ -1128,7 +1128,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "MacOS-${HOST-ARCH}-BuildTools",
                         "Package"      : "qt6.2"
                 },
@@ -1163,7 +1163,7 @@
                "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "twclangformat"
                 },
@@ -1240,7 +1240,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-Build-Libs",
                         "Package"      : "googletest"
                 },
@@ -1271,7 +1271,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Linux-Build-Libs",
                         "Package"      : "googletest"
                 },
@@ -1303,7 +1303,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "MacOS-Build-Libs",
                         "Package"      : "googletest"
                 },
@@ -1338,7 +1338,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-Build-Libs",
                         "Package"      : "reflexlib3.2.11"
                 },
@@ -1369,7 +1369,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Linux-Build-Libs",
                         "Package"      : "reflexlib3.2.11"
                 },
@@ -1401,7 +1401,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "MacOS-Build-Libs",
                         "Package"      : "reflexlib3.2.11"
                 },
@@ -1436,7 +1436,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "reflex3.2.11"
                 },
@@ -1467,7 +1467,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
                         "Package"      : "reflex3.2.11"
                 },
@@ -1499,7 +1499,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "MacOS-${HOST-ARCH}-BuildTools",
                         "Package"      : "reflex3.2.11"
                 },
@@ -1568,7 +1568,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyWorld",
+                        "Organization" : "TallyPMTTrail",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "windows_app_runtime"
                 },
@@ -1597,7 +1597,7 @@
         }
     ],
     "ValidationCMakeFile"  :  "${BootstrapURL}/CMake/ValidateEnvironment.cmake",
-	"VSSettingsFile"       :  "${BootstrapURL}/TallyWorld.vssettings",
+	"VSSettingsFile"       :  "${BootstrapURL}/TallyPMTTrail.vssettings",
 	"VisualStudioOptions"  :
 	[
 		{

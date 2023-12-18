@@ -18,22 +18,12 @@
                 "Organizations" : 
                 [
                     {
-                        "Name"          : "TallyWorld",
+                        "Name"          : "TallyPMTTrail",
                         "ProjectFilter" : [],
                         "Mandatory"     : true,
                         "Comments"      : "Blank project filter means, ALL projects under the Organization."
-                    },
-                    {
-                        "Name"          : "TWPersonal",
-                        "ProjectFilter" : ["${DomainName}"],
-                        "Mandatory"     : false
-                    },
-                    {
-                        "Name"          : "TallySolutions",
-                        "ProjectFilter" : ["TallyPMT","TWShared"],
-                        "Mandatory"     : false
                     }
-                ]
+                                                                                                                                                                                                                        ]
             }
         ]
     },
@@ -57,7 +47,7 @@
                             "CloneDir": "ThirdParty"
                         },
                         {
-                            "Name"    : "TWVSExtension",
+                            "Name"    : "TWTrailExtension",
                             "CloneDir": "TallySolutions"
                         }
                     ]
