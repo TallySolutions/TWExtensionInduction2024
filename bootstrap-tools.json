@@ -84,7 +84,7 @@
                     "InstallDir"       : "/usr/share/${NAME}",
                     "InstallCommands"  : 
                     [
-                        "DOWNLOAD ${URL_0} ${FILENAME_0}",
+                        "sudo DOWNLOAD ${URL_0} ${FILENAME_0}",
                         "sudo mkdir -p ${InstallDir}",
                         "sudo tar xvzf ${FILENAME_0} -C ${InstallDir}",
                         "sudo ln -sf ${InstallDir}/${FILENAME_WE_0}/bin/cmake /usr/bin/cmake",
