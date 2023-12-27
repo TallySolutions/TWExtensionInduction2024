@@ -370,7 +370,13 @@
                 },
                 "Validations"   : 
                 [
-                    {
+                   
+		   {
+                        "Command"        : "git config --global --default false core.autocrlf",
+                        "ExpectedOutput" : "false",
+                        "FixCommand"     : "git config --global core.autocrlf false"
+                   },	
+		   {
                         "Command"        : "git config --system --default false core.longpaths",
                         "ExpectedOutput" : "true",
                         "FixCommand"     : "git config --system core.longpaths true"
@@ -390,11 +396,7 @@
                         "ExpectedOutput" : "0",
                         "FixCommand"     : "git config --global core.compression 0"
                     },
-                    {
-                        "Command"        : "git config --global --default false core.autocrlf",
-                        "ExpectedOutput" : "false",
-                        "FixCommand"     : "git config --global core.autocrlf false"
-                    },
+
                     {
                         "Command"        : "git config --global user.name",
                         "ExpectedOutput" : "${USERNAME}",
