@@ -576,13 +576,13 @@
                 "$ref": "#/definitions/RequiredSoftware"
             }
         },
-        "TWTextMakeLanguageGrammers": {
+        "TWTextMateLanguageGrammer": {
             "type": [
                 "array",
                 "null"
             ],
             "items": {
-                "$ref": "#/definitions/TWTextMakeLanguageGrammer"
+                "$ref": "#/definitions/TWTextMateLanguageGrammer"
             }
         },
 
