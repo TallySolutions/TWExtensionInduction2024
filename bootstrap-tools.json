@@ -700,7 +700,7 @@
                             "Name": "TWBUILDGEN_CMAKE_LAUNCH",
                             "Value": "1"
                         }
-                    ]
+                    ],
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallTWBuildGen",
                     "InstallDir"      : "${TWHome}\\Tools\\TWBuildGen",
                     "InstallCommands" :
