@@ -1227,7 +1227,7 @@
                     [
                         " curl https://ops.city/get.sh -sSfL | sh",
                         "sudo usermod -aG kvm ${LOGINID}",
-                        "sudo apt-get install qemu-kvm qemu-utils -y"
+                        "sudo apt-get install qemu-kvm qemu-utils -y",
 			"${HOME}/.ops/bin/ops update"
                     ],
                     "UninstallCommands":
