@@ -22,7 +22,7 @@
                         "ProjectFilter" : [],
                         "Mandatory"     : true,
                         "Comments"      : "Blank project filter means, ALL projects under the Organization."
-                    }
+                    },
                     {
                         "Name"          : "TWPersonalInduction2024",
                         "ProjectFilter" : ["${DomainName}"],
@@ -32,7 +32,8 @@
                         "Name"          : "TallySolutionsInduction2024",
                         "ProjectFilter" : ["TallyPMT","TWShared"],
                         "Mandatory"     : false
-                    }                                                                                                                                                                                                    ]
+                    }    
+                ]
             }
         ]
     },
