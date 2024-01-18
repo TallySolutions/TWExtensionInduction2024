@@ -30,7 +30,7 @@
     <id>TWVSSCM.49b6914f-7dcc-4145-b190-83906aa20b32</id>
     <title type="text">TWVSSCM</title>
     <link rel="alternate" href="https://github.com/TallySolutions/TWVSExtension/releases/tag/TWVSSCM-v26.0.1" />
-    <summary type="text">TallyPMTTrail Source Control Management</summary>
+    <summary type="text">TWInduction2024 Source Control Management</summary>
     <published>2023-12-15T09:57:16Z</published>
     <updated>2023-12-15T09:57:16Z</updated>
     <author>
@@ -51,7 +51,7 @@
     <id>TWVSEditor.e45c0d07-34b0-4405-b94f-ede84e4b95b5</id>
     <title type="text">TWVSEditor</title>
     <link rel="alternate" href="https://github.com/TallySolutions/TWVSExtension/releases/tag/TWVSEditor-v11.0.0" />
-    <summary type="text">TallyPMTTrail Visual Studio Editor Support</summary>
+    <summary type="text">TWInduction2024 Visual Studio Editor Support</summary>
     <published>2023-12-11T12:53:51Z</published>
     <updated>2023-12-11T12:53:51Z</updated>
     <author>
@@ -72,7 +72,7 @@
     <id>TWVSBuildTools.49b6914f-7ddc-4145-b190-83906aa20b32</id>
     <title type="text">TWVSBuildTools</title>
     <link rel="alternate" href="https://github.com/TallySolutions/TWVSExtension/releases/tag/TWVSBuildTools-v12.0.0" />
-    <summary type="text">TallyPMTTrail Build Tools Control Management</summary>
+    <summary type="text">TWInduction2024 Build Tools Control Management</summary>
     <published>2023-12-11T12:53:39Z</published>
     <updated>2023-12-11T12:53:39Z</updated>
     <author>
