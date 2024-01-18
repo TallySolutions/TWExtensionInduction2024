@@ -9,7 +9,7 @@
             "Feed"          : "https://feeds.dev.azure.com",
             "Organizations" :
             [
-                              "TallyPMTTrail"
+                              "TWInduction2024"
             ] 
         }
     ],
@@ -681,7 +681,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "twbuildgen"
                 },
@@ -722,7 +722,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "java"
                 },
@@ -868,7 +868,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "androidx"
                 },
@@ -968,7 +968,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
                         "Package"      : "linuxbison"
                 },
@@ -1034,7 +1034,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "gradle"
                 },
@@ -1068,7 +1068,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "qt6.2"
                 },
@@ -1099,7 +1099,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
                         "Package"      : "qt6.2"
                 },
@@ -1136,7 +1136,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "MacOS-${HOST-ARCH}-BuildTools",
                         "Package"      : "qt6.2"
                 },
@@ -1171,7 +1171,7 @@
                "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "twclangformat"
                 },
@@ -1246,7 +1246,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-Build-Libs",
                         "Package"      : "googletest"
                 },
@@ -1277,7 +1277,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Linux-Build-Libs",
                         "Package"      : "googletest"
                 },
@@ -1309,7 +1309,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "MacOS-Build-Libs",
                         "Package"      : "googletest"
                 },
@@ -1344,7 +1344,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-Build-Libs",
                         "Package"      : "reflexlib3.2.11"
                 },
@@ -1375,7 +1375,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Linux-Build-Libs",
                         "Package"      : "reflexlib3.2.11"
                 },
@@ -1407,7 +1407,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "MacOS-Build-Libs",
                         "Package"      : "reflexlib3.2.11"
                 },
@@ -1442,7 +1442,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "reflex3.2.11"
                 },
@@ -1473,7 +1473,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
                         "Package"      : "reflex3.2.11"
                 },
@@ -1505,7 +1505,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "MacOS-${HOST-ARCH}-BuildTools",
                         "Package"      : "reflex3.2.11"
                 },
@@ -1574,7 +1574,7 @@
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
-                        "Organization" : "TallyPMTTrail",
+                        "Organization" : "TWInduction2024",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
                         "Package"      : "windows_app_runtime"
                 },
@@ -1603,7 +1603,7 @@
         }
     ],
     "ValidationCMakeFile"  :  "${BootstrapURL}/CMake/ValidateEnvironment.cmake",
-	"VSSettingsFile"       :  "${BootstrapURL}/TallyPMTTrail.vssettings",
+	"VSSettingsFile"       :  "${BootstrapURL}/TWInduction2024.vssettings",
 	"VisualStudioOptions"  :
 	[
 		{
