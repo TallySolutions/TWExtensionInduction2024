@@ -8,14 +8,14 @@
   <entry>
     <id>TWVSBuild.39a74f28-e760-4051-9b62-a6286a68b27a</id>
     <title type="text">TWVSBuild</title>
-    <link rel="alternate" href="https://github.com/TallySolutions/TWTrailExtension/releases/tag/TWVSBuild-v13.0.2" />
+    <link rel="alternate" href="https://github.com/TallySolutions/TWExtensionInduction2024/releases/tag/TWVSBuild-v13.0.2" />
     <summary type="text">TallyWorld Visual Studio Build Support</summary>
     <published>2024-01-03T08:44:56Z</published>
     <updated>2024-01-03T08:44:56Z</updated>
     <author>
       <name>Tally</name>
     </author>
-    <content type="application/octet-stream" src="https://github.com/TallySolutions/TWTrailExtension/releases/download/TWVSBuild-v13.0.2/Tally.TWVSBuild.vsix" />
+    <content type="application/octet-stream" src="https://github.com/TallySolutions/TWExtensionInduction2024/releases/download/TWVSBuild-v13.0.2/Tally.TWVSBuild.vsix" />
     <link rel="icon" href="icons\TWVSBuild.39a74f28-e760-4051-9b62-a6286a68b27a" />
     <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
       <Id>TWVSBuild.39a74f28-e760-4051-9b62-a6286a68b27a</Id>
