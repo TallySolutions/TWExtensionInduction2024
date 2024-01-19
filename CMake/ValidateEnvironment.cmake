@@ -155,7 +155,14 @@ macro (install_patch_libssl_forubuntu22)
 endmacro()
 
 if(CMAKE_HOST_SYSTEM_NAME STREQUAL Linux)
-   install_patch_libssl_forubuntu22()
+   #install_patch_libssl_forubuntu22()
+    execute_process(
+        COMMAND  sudo apt update
+        COMMAND  sudo apt upgrade
+        RESULT_VARIABLE retCode
+        OUTPUT_VARIABLE out
+        ERROR_VARIABLE error
+    )
    message(NOTICE "Verifying packages installed on Linux ...")
 
    set(failed_package_list)
